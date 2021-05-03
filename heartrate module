@@ -1,0 +1,16 @@
+# Before running this code make sure you do pip install heartrate
+# Youtube link 
+# Author: Vivek Singh
+
+import heartrate
+heartrate.trace(browser=True)
+import time
+name ="Vivek"
+
+for i in range(200):
+    print(name)
+    time.sleep(0.005)
+
+for i in range(100):
+    print("Running")
+    time.sleep(0.05)
